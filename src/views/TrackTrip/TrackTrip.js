@@ -22,7 +22,7 @@ export default function TableList() {
   useEffect(() => {
     const getData = async () => {
       const { data } = await axios.get(
-        "https://app.uiib.us/api/trip/get-all/Uiib_admin@221221"
+        'demo.com'
       );
 
       setResData(data);

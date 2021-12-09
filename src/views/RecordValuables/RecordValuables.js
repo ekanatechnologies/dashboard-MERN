@@ -19,7 +19,7 @@ export default function TableList() {
   useEffect(() => {
     const getData = async () => {
       const { data } = await axios.get(
-        "https://app.uiib.us/api/valuables/agent123"
+        "demo.com"
       );
 
       setResData(data.valuables);
